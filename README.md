@@ -1,6 +1,9 @@
 # Product-preview-card-component
 Users should be able to:  View the optimal layout and see hover and focus states for interactive elements
 
+Check link below:
+
+https://product-preview-card-component-lovat.vercel.app/
 
 Final output:
 
