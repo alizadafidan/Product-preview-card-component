@@ -5,12 +5,12 @@
 }
 
 html {
-  /* Percentage of user browser`s font-size 10/16*100*/
   font-size: 62.5%;
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Fraunces", serif;
+
   line-height: 1;
   color: #555;
   background-color: hsl(30, 38%, 92%);
@@ -103,9 +103,10 @@ img {
 
 .btn {
   display: flex;
+  font-family: "Fraunces", serif;
+
   background: hsl(158, 36%, 37%);
-  font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-weight: 700;
   align-items: center;
   justify-content: center;
   color: white;
