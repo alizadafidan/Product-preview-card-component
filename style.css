@@ -43,10 +43,11 @@ body {
 .text {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
   margin-top: 50px;
   margin-left: 30px;
 }
+
 img {
   display: inline-block;
   width: 300px;
@@ -67,5 +68,71 @@ img {
   color: hsl(228, 12%, 48%);
   letter-spacing: 0.5px;
   word-spacing: 5px;
-  line-height: 1.2;
+  line-height: 1.4;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.sale-price {
+  font-size: 36px;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+}
+
+.original-price {
+  position: relative;
+  color: hsl(228, 12%, 48%);
+  margin-top: 10px;
+}
+.original-price::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  color: hsl(228, 12%, 48%);
+}
+
+.btn {
+  display: flex;
+  background: hsl(158, 36%, 37%);
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  word-spacing: 3px;
+  line-height: 2;
+  margin: 0 auto;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.btn--cart:link,
+.btn--cart:visited {
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+}
+
+.btn--cart:hover,
+.btn--cart:active {
+  background-color: #c9cbbc;
+}
+.btn--icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
